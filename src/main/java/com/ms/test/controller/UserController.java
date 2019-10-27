@@ -77,7 +77,7 @@ public class UserController implements UserDetailsService{
 		//check if user_id is not in request but user is already exist in database throw error
 		if (user.getUserid() < 1)
 		{
-			UserDetails oldUser = loadUserByUsername(user.getUsername());
+			User oldUser = userRepository.findByUsername(user.getUsername());
 			if (oldUser != null) throw new Exception("username already exist please try another combination");
 		}
 		user.setPassword(passwordEncoder.encode(user.getPassword()));
