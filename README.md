@@ -12,6 +12,8 @@ Project is using:
 -Import Project as Maven project  
 -Go to SpringBootRestAPI>sql>db_test.sql location and create new MySQL database with the help of given script  
 -Now try to run project as maven project using command-”spring-boot: run"  
+![test4](https://user-images.githubusercontent.com/4569362/67636935-d6624e00-f8d5-11e9-9c90-b10093889ec5.PNG)
+
 -Go to browser and type "http://localhost:8080/swagger-ui.html"   
 Note: application require basic0-authorigation please use any user from database for example table-user contains username-"user1" & password-"test123". Please use this user for authentication.  
 
