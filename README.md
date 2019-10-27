@@ -17,7 +17,7 @@ Project is using:
 
 -Now try to run project as maven project using command-”spring-boot: run"  
 -Go to browser and type "http://localhost:8080/swagger-ui.html"   
-Note: application require basic0-authorigation please use any user from database for example table-user contains username-"user1" & password-"test123". Please use this user for authentication.  
+Note: application require basic-authorigation please use any user from database for example table-user contains username-"user1" & password-"test123". Please use this user for authentication.  
 
 ### How to use Swagger UI and doc?  
 -As soon you will authorize the application will see swagger-page where user can test all api's 
