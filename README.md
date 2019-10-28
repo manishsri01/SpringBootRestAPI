@@ -13,8 +13,8 @@ Project is using:
 -and change 'application.properties' as per your databse credentials
 ![test5](https://user-images.githubusercontent.com/4569362/67636977-4f61a580-f8d6-11e9-8821-10e31734db07.PNG)
 -Now you can run this jar using command: "java -jar Backend.jar"
--If everything went right, you can open browser and start testing("http://localhost:8080/swagger-ui.html")
--Please use username-"user1" & password-"test123" for basic-authorigation
+-If everything went right, you can open browser and start testing("http://localhost:8080/swagger-ui.html")  
+-Please use username-"user1" & password-"test123" for basic-authorigation  
 
 ### How to import & setup project?  
 -Clone SpringBootRestAPI project locally  
