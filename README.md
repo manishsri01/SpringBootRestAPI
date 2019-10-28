@@ -1,11 +1,19 @@
 ### About the Technology and frameworks
 Project is using:  
--Open JDK 11  
+-Open JDK 11 OR 12  
 -Spring Boot framework  
 -Maven build system  
 -MySQL database  
 -Swagger UI and doc  
 -Spring Security(Basic-AUTH)  
+
+### How to run project without any setup?  
+-Please copy 'runable' folder from the root folder and paste anywhere locally or just go to the same place
+-Go to SpringBootRestAPI>sql>db_test.sql location and create new MySQL database with the help of given script  
+-and change 'application.properties' as per your databse credentials
+![test5](https://user-images.githubusercontent.com/4569362/67636977-4f61a580-f8d6-11e9-8821-10e31734db07.PNG)
+-Now you can run this jar using command: "java -jar Backend.jar"
+-If everything went right, you can open browser and start testing("http://localhost:8080/swagger-ui.html")
 
 ### How to import & setup project?  
 -Clone SpringBootRestAPI project locally  
