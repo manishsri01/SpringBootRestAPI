@@ -34,7 +34,7 @@ public class MessageController {
 	 * @param messageid
 	 * @return
 	 */
-	@GetMapping(value = "/getmessagebyid/{messageid}", consumes = "application/json", produces = "application/json")
+	@GetMapping(value = "/getmessagebyid/{messageid}")
 	@ResponseBody
 	public Message getMessageById(@PathVariable("messageid") int messageid) {
 		Message result = null;
@@ -48,7 +48,7 @@ public class MessageController {
 	 * 
 	 * @return
 	 */
-	@GetMapping(value = "/allmessages", consumes = "application/json", produces = "application/json")
+	@GetMapping(value = "/allmessages")
 	@ResponseBody
 	public List<Message> getAllMessages() {
 		return (List<Message>) messageRepository.findAll();

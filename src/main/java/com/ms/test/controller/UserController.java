@@ -45,7 +45,7 @@ public class UserController implements UserDetailsService{
 	 * @return
 	 * @throws Exception
 	 */
-	@GetMapping(value = "/getuserbyid/{userid}", consumes = "application/json", produces = "application/json")
+	@GetMapping(value = "/getuserbyid/{userid}")
 	@ResponseBody
 	public User getUserById(@PathVariable("userid") int userid) throws Exception {
 		 User result = null;
@@ -59,7 +59,7 @@ public class UserController implements UserDetailsService{
 	 * @return
 	 * @throws Exception
 	 */
-	@GetMapping(value = "/allusers", consumes = "application/json", produces = "application/json")
+	@GetMapping(value = "/allusers")
 	@ResponseBody
 	public List<User> getAllUsers() throws Exception {
 		return (List<User>) userRepository.findAll();
